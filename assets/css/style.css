@@ -10,10 +10,13 @@ section {
 
 img {
     width: 100%;
-    padding-top: 0.6em;
+    /* height: 100%; */
+    /* padding-top: 0.6em; */
 }
 
-p{font-weight: 600;}
+p {
+    font-weight: 600;
+}
 
 .Titre1 {
     color: #1c93ef;
@@ -23,15 +26,25 @@ p{font-weight: 600;}
 
 .tred,
 .tbleu {
-    font-size: 1em;
-    padding: 0.3em;
+    /* padding: 0.3em; */
     color: white;
 }
 
 .tbleu {
-    background-color: #1c93ee;   
+    background-color: #1c93ee;
 }
 
 .tred {
     background-color: #c12051;
+}
+
+.boite {
+    position: relative;
+    background-color: grey;
+    /* padding-top: 0.6em; */
+}
+
+.image{
+    position: absolute;
+    bottom: 0em;
 }
