@@ -9,10 +9,10 @@ section {
 }
 
 img {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     /* height: 100%; */
-    /* padding-top: 0.6em; */
+    padding-top: 0.6em;
 }
 
 p {
@@ -39,14 +39,24 @@ p {
     background-color: #c12051;
 }
 
-.boite {
+#boite1 {
     position: relative;
     padding-top: 0.6em;
-    height: 240px;
-    overflow: hidden;
-    
+    /* height: 240px; */
+    /* overflow: hidden; */
 }
-
+#boite2{
+    position: relative;
+    padding-top: 0.6em;
+    /* height: 240px; */
+    /* overflow: hidden; */
+}
+#boite3{
+    position: relative;
+    padding-top: 0.6em;
+    /* height: 240px; */
+    /* overflow: hidden; */
+}
 .image{
     position: absolute;
     bottom: 0em;
